@@ -1,4 +1,3 @@
-
 async function renderProducts() {
   try {
     const respon = await fetch("http://localhost:3000/products");
@@ -14,7 +13,7 @@ async function renderProducts() {
             <td>${product.category}</td>
             <td>${product.stock}</td>
             <td>
-              <button class="btn btn-sm btn-primary me-2">Sửa</button>
+              <button class="btn btn-sm btn-primary me-2"><a href="edit.html?id=${product.id}">Sửa</a></button>
               <button class="btn btn-sm btn-danger"onclick = "xoa('${product.id}')">Xóa</button>
             </td>
           </tr>`;

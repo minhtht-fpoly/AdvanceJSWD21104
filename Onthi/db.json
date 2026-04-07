@@ -11,14 +11,11 @@
       "created_at": "2026-03-28"
     },
     {
-      "id": "3",
-      "name": "MacBook Air M3",
+      "name": "MacBook Air M3gvjhbnjklml;,'';,lmkbhvgchgvhbnjkm.,l/.",
+      "price": "32990000",
       "category": "Laptop",
-      "price": 32990000,
-      "stock": 25,
-      "brand": "Apple",
-      "rating": 4.9,
-      "created_at": "2026-03-15"
+      "stock": "25",
+      "id": "3"
     },
     {
       "id": "4",
@@ -49,5 +46,12 @@
       "status": "Active"
     }
   ],
-  "$schema": "./node_modules/json-server/schema.json"
+  "$schema": "./node_modules/json-server/schema.json",
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$2.uvPPmPqjaykAokgCrMdOa83jpRoLBtm2u3CzO8TTU2ZLpixD9uG",
+      "id": 1
+    }
+  ]
 }

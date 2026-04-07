@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit="loginAccount(event)">
+      <!-- Tên sản phẩm -->
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          placeholder="Nhập email"
+          id="email"
+        />
+      </div>
+
+      <!-- Giá -->
+      <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          placeholder="Nhập giá"
+          id="password"
+        />
+      </div>
+
+      <!-- Danh mục -->
+
+      <!-- Tồn kho -->
+
+      <!-- Nút -->
+      <div class="d-flex justify-content-end">
+        <button type="reset" class="btn btn-secondary me-2">Reset</button>
+        <button type="submit" class="btn btn-primary">Đăng nhập</button>
+      </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.8/dist/axios.min.js"></script>
+    <script src="login.js"></script>
+  </body>
+</html>
